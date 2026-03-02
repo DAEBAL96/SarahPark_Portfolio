@@ -269,7 +269,7 @@ ol {
 
 .competency-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   gap: 24px;
 }
 .competency-card {
@@ -297,13 +297,13 @@ ol {
 }
 .competency-card h3 {
   font-family: "Inter", sans-serif;
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #fff;
   margin-bottom: 12px;
 }
 .competency-card p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #999;
   line-height: 1.6;
 }
@@ -595,7 +595,7 @@ ol {
   position: relative;
 }
 .timeline-results li::before {
-  content: "—";
+  content: "-";
   position: absolute;
   left: 0;
   color: #555;
