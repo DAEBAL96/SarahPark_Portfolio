@@ -141,9 +141,18 @@ ol {
   font-weight: 900;
   line-height: 1.1;
   color: #fff;
-  margin-bottom: 16px;
+  margin-bottom: 0;
   opacity: 0;
   animation: fadeUp 1s 0.5s forwards;
+}
+.hero-name {
+  font-family: "Inter", sans-serif;
+  font-size: clamp(1.2rem, 3.5vw, 2.5rem);
+  font-weight: 600;
+  color: #ccc;
+  margin-bottom: 16px;
+  opacity: 0;
+  animation: fadeUp 1s 0.7s forwards;
 }
 .hero-desc {
   font-size: clamp(0.9rem, 1.5vw, 1.1rem);
